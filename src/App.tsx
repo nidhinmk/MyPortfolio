@@ -3,6 +3,8 @@ import type { PortfolioData } from './types'
 import Header from './components/Header'
 import About from './components/About'
 import Skills from './components/Skills'
+import Projects from './components/Projects'
+import Certifications from './components/Certifications'
 import Experience from './components/Experience'
 import Education from './components/Education'
 import Contact from './components/Contact'
@@ -17,6 +19,8 @@ function App() {
           <Header data={data} />
           <About summary={data.summary} />
           <Skills topSkills={data.top_skills} technologies={data.technologies} />
+          <Projects projects={data.projects} />
+          <Certifications certifications={data.certifications} />
           <Experience experience={data.experience} />
           <Education education={data.education} />
           <Contact contact={data.contact} />

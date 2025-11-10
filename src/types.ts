@@ -23,6 +23,13 @@ export interface Education {
   duration: string;
 }
 
+export interface Project {
+  name: string;
+  description: string;
+  link: string;
+  highlights: string[];
+}
+
 export interface PortfolioData {
   name: string;
   title: string;
@@ -33,6 +40,7 @@ export interface PortfolioData {
   technologies: string[];
   languages: Language[];
   certifications: string[];
+  projects: Project[];
   experience: Experience[];
   education: Education[];
 }

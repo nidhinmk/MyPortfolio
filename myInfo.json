@@ -1,22 +1,27 @@
 {
   "name": "Nidhin Madankara Kottayi",
-  "title": "Product Focused Tech Leader | Full Stack Engineer | MBA in Strategy & Product Management | Building Scalable Products with Business Impact",
+  "title": "Product Focused Tech Leader | Full Stack Engineer | Azure AI Engineer | MBA in Strategy & Product Management | Building Scalable AI-Powered Products with Business Impact",
   "location": "Greater Vancouver Metropolitan Area",
   "contact": {
     "phone": "+1 2368626050",
     "email": "nidhinmk@gmail.com",
     "linkedin": "www.linkedin.com/in/nidhinmk"
   },
-  "summary": "I’m a Software Engineer with 14+ years of global experience delivering scalable, high-performance solutions across fintech, cloud, and enterprise platforms. My expertise spans the entire software lifecycle — from architecture and design to hands-on implementation — using modern tech stacks like Java, Spring Boot, Microservices, Angular, React, Python, SQL, MongoDB, and deploying on AWS and GCP, along with expertise in building agentic applications in Azure AI Foundry.\n\nAt companies like Google, Walmart, and First Data, I’ve led the design and development of business-critical features; whether it’s crafting UI components with MAML/TypeScript, implementing OAuth2 authentication, optimizing backends for 15%+ performance gains, or delivering seamless third-party integrations for large-scale platforms. I’m adept at using Agile/Scrum practices, REST/SOAP APIs, CI/CD pipelines, and tools like Jira, GitHub, and Jenkins to drive continuous improvements and measurable business outcomes.\n\nAs an MBA in Strategy & Product Management and hands-on technologist, I bridge the gap between business and engineering, making sure every technical decision supports broader company goals. I’m always looking to collaborate on new ideas; let’s connect to explore innovation, technical excellence, and new opportunities!",
+  "summary": "I'm a Software Engineer with 14+ years of global experience delivering scalable, high-performance solutions across fintech, cloud, and enterprise platforms. My expertise spans the entire software lifecycle — from architecture and design to hands-on implementation — using modern tech stacks like Java, Spring Boot, Microservices, Angular, React, Python, SQL, MongoDB, and deploying on AWS and GCP, along with expertise in building Generative AI, Agentic AI, and Computer Vision applications in Azure AI Foundry.\n\nCurrently pursuing Azure AI Engineer certification, I specialize in developing intelligent AI solutions using Azure AI Foundry, implementing advanced multi-agent systems, RAG-based solutions, prompt engineering, and Model Context Protocol (MCP) integrations. I have hands-on experience with GitHub Copilot and Cursor AI for accelerated development, and extensive practice in building production-ready AI applications including custom agents, fine-tuned models, and responsible AI implementations.\n\nAt companies like Google, Walmart, and First Data, I've led the design and development of business-critical features; whether it's crafting UI components with MAML/TypeScript, implementing OAuth2 authentication, optimizing backends for 15%+ performance gains, or delivering seamless third-party integrations for large-scale platforms. I'm adept at using Agile/Scrum practices, REST/SOAP APIs, CI/CD pipelines, and tools like Jira, GitHub, and Jenkins to drive continuous improvements and measurable business outcomes.\n\nAs an MBA in Strategy & Product Management and hands-on technologist, I bridge the gap between business and engineering, making sure every technical decision supports broader company goals. I'm always looking to collaborate on new ideas; let's connect to explore innovation, technical excellence, and new opportunities!",
   "top_skills": [
     "Azure AI Foundry",
-    "Agent 2 Agent",
-    "Model Context Protocol"
+    "Generative AI & Agentic AI",
+    "Multi-Agent Systems",
+    "GitHub Copilot & Cursor AI",
+    "Computer Vision",
+    "Model Context Protocol (MCP)"
   ],
   "technologies": [
-    "Azure AI", "MCP", "A2A", "RAG", "Angular", "React", "Spring Boot", "AWS",
-    "Java J2EE", "REST", "JavaScript", "jQuery", "Agile", "JPA", "Maven", "XML",
-    "JSON", "SQL", "Microservices", "Splunk"
+    "Azure AI Foundry", "Azure OpenAI", "GitHub Copilot", "Cursor AI", "Generative AI", 
+    "Agentic AI", "Computer Vision", "MCP", "A2A", "RAG", "Prompt Engineering", 
+    "Fine-tuning", "Multi-Agent Systems", "Python", "Angular", "React", "Spring Boot", 
+    "AWS", "Java J2EE", "REST", "JavaScript", "jQuery", "Agile", "JPA", "Maven", 
+    "XML", "JSON", "SQL", "MongoDB", "Microservices", "Splunk"
   ],
   "languages": [
     { "language": "Tamil", "proficiency": "Limited Working" },
@@ -25,9 +30,30 @@
     { "language": "English", "proficiency": "Full Professional" }
   ],
   "certifications": [
+    "Azure AI Engineer (In Progress)",
+    "Azure AI Foundry - Generative AI Applications",
+    "Azure AI Foundry - Multi-Agent Systems & Agent Framework",
+    "Azure AI Foundry - Computer Vision Solutions",
+    "GitHub Copilot & Cursor AI Implementation",
     "Sun Certified Java Programmer",
     "Data Science with Python",
     "Free Code Camp: Full Stack Web Development Certification (2016-2017)"
+  ],
+  "projects": [
+    {
+      "name": "Azure AI Portfolio",
+      "description": "Comprehensive collection of AI projects demonstrating expertise in Azure AI Foundry",
+      "link": "https://github.com/nidhinmk/AzureAI",
+      "highlights": [
+        "Built Generative AI chat applications with GPT models and custom prompt flows",
+        "Implemented RAG-based solutions for context-aware AI responses",
+        "Developed multi-agent systems with Agent Framework and Agent-to-Agent (A2A) protocol",
+        "Created Computer Vision applications for image analysis and text extraction",
+        "Integrated Model Context Protocol (MCP) with AI agents",
+        "Fine-tuned models and implemented responsible AI practices",
+        "Built custom agent solutions with specialized functions and tools"
+      ]
+    }
   ],
   "experience": [
     {
