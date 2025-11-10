@@ -1,0 +1,144 @@
+{
+  "name": "Nidhin Madankara Kottayi",
+  "title": "Product Focused Tech Leader | Full Stack Engineer | MBA in Strategy & Product Management | Building Scalable Products with Business Impact",
+  "location": "Greater Vancouver Metropolitan Area",
+  "contact": {
+    "phone": "+1 2368626050",
+    "email": "nidhinmk@gmail.com",
+    "linkedin": "www.linkedin.com/in/nidhinmk"
+  },
+  "summary": "I’m a Software Engineer with 14+ years of global experience delivering scalable, high-performance solutions across fintech, cloud, and enterprise platforms. My expertise spans the entire software lifecycle — from architecture and design to hands-on implementation — using modern tech stacks like Java, Spring Boot, Microservices, Angular, React, Python, SQL, MongoDB, and deploying on AWS and GCP, along with expertise in building agentic applications in Azure AI Foundry.\n\nAt companies like Google, Walmart, and First Data, I’ve led the design and development of business-critical features; whether it’s crafting UI components with MAML/TypeScript, implementing OAuth2 authentication, optimizing backends for 15%+ performance gains, or delivering seamless third-party integrations for large-scale platforms. I’m adept at using Agile/Scrum practices, REST/SOAP APIs, CI/CD pipelines, and tools like Jira, GitHub, and Jenkins to drive continuous improvements and measurable business outcomes.\n\nAs an MBA in Strategy & Product Management and hands-on technologist, I bridge the gap between business and engineering, making sure every technical decision supports broader company goals. I’m always looking to collaborate on new ideas; let’s connect to explore innovation, technical excellence, and new opportunities!",
+  "top_skills": [
+    "Azure AI Foundry",
+    "Agent 2 Agent",
+    "Model Context Protocol"
+  ],
+  "technologies": [
+    "Azure AI", "MCP", "A2A", "RAG", "Angular", "React", "Spring Boot", "AWS",
+    "Java J2EE", "REST", "JavaScript", "jQuery", "Agile", "JPA", "Maven", "XML",
+    "JSON", "SQL", "Microservices", "Splunk"
+  ],
+  "languages": [
+    { "language": "Tamil", "proficiency": "Limited Working" },
+    { "language": "Hindi", "proficiency": "Limited Working" },
+    { "language": "Malayalam", "proficiency": "Native or Bilingual" },
+    { "language": "English", "proficiency": "Full Professional" }
+  ],
+  "certifications": [
+    "Sun Certified Java Programmer",
+    "Data Science with Python",
+    "Free Code Camp: Full Stack Web Development Certification (2016-2017)"
+  ],
+  "experience": [
+    {
+      "company": "Secondary Extraction Association",
+      "role": "Director of Technology",
+      "duration": "April 2025 - Present (8 months)",
+      "location": "Vancouver, British Columbia, Canada",
+      "responsibilities": [
+        "Leading the strategic direction and implementation of technology initiatives at Secondary Extraction, integrating advanced AI and computational tools to support digital research and innovation.",
+        "Overseeing the development and maintenance of digital infrastructure, ensuring scalability, performance, and research alignment.",
+        "Collaborating with cross-disciplinary teams to explore emerging technologies and their application in data visualization, secondary knowledge extraction, and perceptual systems.",
+        "Providing technical leadership, mentorship, and governance for ongoing research and development projects."
+      ]
+    },
+    {
+      "company": "Sunshine Apartments",
+      "role": "Owner & Project Manager",
+      "duration": "May 2021 - September 2023 (2 years 5 months)",
+      "location": "India",
+      "responsibilities": [
+        "Led the end-to-end construction and management of a multi-unit rental property, overseeing design, budgeting, and execution.",
+        "Coordinated with architects, engineers, and contractors to ensure quality, compliance, and on-time delivery.",
+        "Utilized digital tools for tracking project milestones, cost optimization, and vendor management.",
+        "Managed operational aspects including tenant onboarding, lease agreements, and property maintenance.",
+        "Developed financial plans and ROI models to ensure long-term profitability and sustainability of the rental business.",
+        "Combined hands-on technical oversight with strategic business management to deliver a scalable rental operation."
+      ]
+    },
+    {
+      "company": "Tech Mahindra (at Google Inc.)",
+      "role": "Product Specialist",
+      "duration": "October 2019 - February 2021 (1 year 5 months)",
+      "location": "Sunnyvale, California, United States",
+      "responsibilities": [
+        "Extensively worked on Google Cloud Platform’s MAML framework for client Google.",
+        "Design and Develop front end applications for Google’s partners using declarative MAML UI framework and Typescript. MAML is a declarative UI built on Pantheon as Platform.",
+        "Writing unit test cases using Declarative MAML unit tests and Jasmine and ensure 100% code coverage is met.",
+        "Performing Code reviews and approving the change requests.",
+        "Debugging code for any issues and performing code optimization."
+      ]
+    },
+    {
+      "company": "Cognizant (at Walmart Global Tech)",
+      "role": "Product Specialist",
+      "duration": "October 2014 - October 2019 (5 years 1 month)",
+      "location": "Sunnyvale, California",
+      "responsibilities": [
+        "Extensively worked on Web applications using React, Spring Boot, Advanced Javascript, JPA, JSON, HTML5, CSS3 for client Walmart and FirstData.",
+        "Integrated the Brightcove videos published in Sam’s Club website with OPUS. Users can preview the video using the VideoID and can change the videos dynamically. Used Brightcove player with React to integrate the video library.",
+        "Worked on the Azure’s OAuth2 authentication mechanism to be integrated with the OPUS application. When the user logs in with his Microsoft credentials, the request will be intercepted and will be checked against Azure’s Active Directory to authenticate the user. Used react-adal library for the integration with Azure."
+      ]
+    },
+    {
+      "company": "Wipro Technologies (at Mastercard)",
+      "role": "Full Stack Developer",
+      "duration": "October 2010 - October 2014 (4 years 1 month)",
+      "responsibilities": [
+        "Strong experience in front end, and persistence tier using the jQuery, Advanced Javascript, Ajax, JSON, HTML, CSS and JPA for client Mastercard.",
+        "Strong experience in development, and testing phases of software development life cycle.",
+        "Involved in Unit testing.",
+        "Involved in requirement gathering, system design, coding, testing, implementation and post implementation support."
+      ]
+    },
+    {
+      "company": "Cognizant Technology Solutions",
+      "role": "Full Stack Developer",
+      "duration": "January 2010 - October 2010 (10 months)",
+      "responsibilities": [
+        "Interacted with the clients to gather & analyze business requirements of the various modules of the project for client Wellpoint.",
+        "Extensively involved in the design, coding, deployment and maintenance of the project.",
+        "Implementation of View and Controller components with Struts Frame Work.",
+        "Written ant build.xml files for ear and war files generation.",
+        "Worked in the UAT Build, Configuration, Deployment and Integration."
+      ]
+    },
+    {
+      "company": "Valtech",
+      "role": "Software Engineer",
+      "duration": "March 2007 - January 2010 (2 years 11 months)",
+      "responsibilities": [
+        "Involved in development of jQuery, Servlets components development and deployment for client Moog.",
+        "Designed and developed Data Access Objects (DAO) to access the database.",
+        "Used DAO Factory and Value object design patterns to organize and integrate the Java objects.",
+        "Maintained the application Configuration and Environmental information in various properties file.",
+        "Involved in front end validations using JavaScript.",
+        "Applied styles to HTML pages using external Style Sheets (CSS) files.",
+        "Performed unit testing, system testing and integration testing.",
+        "Involved in building and deployment of application in Linux environment."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University Canada West",
+      "degree": "Master of Business Administration - MBA",
+      "duration": "September 2023 - April 2025"
+    },
+    {
+      "institution": "Chinmaya Institute Of Technology",
+      "degree": "MCA, Computer Science",
+      "duration": "2003 - 2006"
+    },
+    {
+      "institution": "Mahatma Gandhi College, Iritti, PO-Keezhur",
+      "degree": "Bachelor of Science (B.Sc.), Mathematics and Computer Science",
+      "duration": "2000 - 2003"
+    },
+    {
+      "institution": "Sree Narayana College, P.O- Thottada",
+      "degree": "Mathematics",
+      "duration": "1998 - 2000"
+    }
+  ]
+}
