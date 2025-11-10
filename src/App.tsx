@@ -11,14 +11,16 @@ function App() {
   const data: PortfolioData = portfolioData as PortfolioData
 
   return (
-    <div className="min-h-screen bg-gray-50">
-      <div className="max-w-4xl mx-auto px-4 py-8">
-        <Header data={data} />
-        <About summary={data.summary} />
-        <Skills topSkills={data.top_skills} technologies={data.technologies} />
-        <Experience experience={data.experience} />
-        <Education education={data.education} />
-        <Contact contact={data.contact} />
+    <div className="min-h-screen py-12 px-4 sm:px-6 lg:px-8">
+      <div className="max-w-6xl mx-auto">
+        <div className="bg-gradient-to-br from-teal-900 via-slate-800 to-teal-950 rounded-3xl shadow-2xl p-8 sm:p-12 border-4 border-white/20 backdrop-blur-sm">
+          <Header data={data} />
+          <About summary={data.summary} />
+          <Skills topSkills={data.top_skills} technologies={data.technologies} />
+          <Experience experience={data.experience} />
+          <Education education={data.education} />
+          <Contact contact={data.contact} />
+        </div>
       </div>
     </div>
   )

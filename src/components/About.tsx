@@ -1,24 +1,20 @@
-import { Card, CardContent, CardHeader, CardTitle } from './ui/card'
-
 interface AboutProps {
   summary: string
 }
 
 export default function About({ summary }: AboutProps) {
   return (
-    <Card className="mb-8">
-      <CardHeader>
-        <CardTitle className="text-2xl">About</CardTitle>
-      </CardHeader>
-      <CardContent>
-        <div className="prose prose-gray max-w-none">
+    <div className="mb-10">
+      <div className="bg-white/95 backdrop-blur-sm rounded-2xl shadow-xl p-8 border border-white/50">
+        <h2 className="text-3xl font-bold text-gray-900 mb-6">About</h2>
+        <div className="prose prose-lg max-w-none">
           {summary.split('\n\n').map((paragraph, index) => (
-            <p key={index} className="mb-4 text-gray-700 leading-relaxed">
+            <p key={index} className="mb-4 text-gray-700 leading-relaxed text-base">
               {paragraph}
             </p>
           ))}
         </div>
-      </CardContent>
-    </Card>
+      </div>
+    </div>
   )
 }

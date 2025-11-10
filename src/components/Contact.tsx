@@ -1,6 +1,4 @@
 import type { Contact as ContactType } from '../types'
-import { Card, CardContent, CardHeader, CardTitle } from './ui/card'
-import { Button } from './ui/button'
 import { Phone, Mail, Linkedin } from 'lucide-react'
 
 interface ContactProps {
@@ -9,48 +7,53 @@ interface ContactProps {
 
 export default function Contact({ contact }: ContactProps) {
   return (
-    <Card className="mb-8">
-      <CardHeader>
-        <CardTitle className="text-2xl">Contact</CardTitle>
-      </CardHeader>
-      <CardContent>
+    <div className="mb-10">
+      <div className="bg-white/95 backdrop-blur-sm rounded-2xl shadow-xl p-8 border border-white/50">
+        <h2 className="text-3xl font-bold text-gray-900 mb-6">Contact</h2>
         <div className="space-y-4">
-          <div className="flex items-center space-x-3">
-            <Phone className="h-5 w-5 text-gray-500" />
-            <span className="text-gray-700">{contact.phone}</span>
+          <div className="flex items-center space-x-4 p-4 bg-gray-50 rounded-xl hover:bg-emerald-50 transition-colors duration-200">
+            <div className="bg-emerald-100 p-3 rounded-full">
+              <Phone className="h-6 w-6 text-emerald-600" />
+            </div>
+            <span className="text-gray-800 font-medium">{contact.phone}</span>
           </div>
 
-          <div className="flex items-center space-x-3">
-            <Mail className="h-5 w-5 text-gray-500" />
+          <div className="flex items-center space-x-4 p-4 bg-gray-50 rounded-xl hover:bg-emerald-50 transition-colors duration-200">
+            <div className="bg-emerald-100 p-3 rounded-full">
+              <Mail className="h-6 w-6 text-emerald-600" />
+            </div>
             <a
               href={`mailto:${contact.email}`}
-              className="text-blue-600 hover:text-blue-800 transition-colors"
+              className="text-emerald-600 hover:text-emerald-700 transition-colors font-medium"
             >
               {contact.email}
             </a>
           </div>
 
-          <div className="flex items-center space-x-3">
-            <Linkedin className="h-5 w-5 text-gray-500" />
+          <div className="flex items-center space-x-4 p-4 bg-gray-50 rounded-xl hover:bg-emerald-50 transition-colors duration-200">
+            <div className="bg-emerald-100 p-3 rounded-full">
+              <Linkedin className="h-6 w-6 text-emerald-600" />
+            </div>
             <a
               href={contact.linkedin}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-blue-600 hover:text-blue-800 transition-colors"
+              className="text-emerald-600 hover:text-emerald-700 transition-colors font-medium"
             >
               {contact.linkedin}
             </a>
           </div>
 
           <div className="pt-4">
-            <Button asChild className="w-full">
-              <a href={`mailto:${contact.email}`}>
-                Get In Touch
-              </a>
-            </Button>
+            <a 
+              href={`mailto:${contact.email}`}
+              className="block w-full text-center px-8 py-4 bg-gradient-to-r from-emerald-500 to-teal-500 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl hover:from-emerald-600 hover:to-teal-600 transition-all duration-200 transform hover:scale-[1.02]"
+            >
+              Get In Touch
+            </a>
           </div>
         </div>
-      </CardContent>
-    </Card>
+      </div>
+    </div>
   )
 }
